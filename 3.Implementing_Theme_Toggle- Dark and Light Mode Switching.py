@@ -1,4 +1,4 @@
-# Write your code here :-)
+
 import customtkinter as ctk   # A library to make cool and modern windows
 from PIL import Image, ImageTk    # A library to work with pictures
 from tkinter import filedialog, messagebox  # A library for opening files and showing messages
@@ -7,7 +7,7 @@ from stegano import lsb  # A library for hiding secret messages inside pictures
 ctk.set_appearance_mode("dark")  # Modes: "System" (default), "Dark", "Light"
 ctk.set_default_color_theme("blue")  # Themes: "blue" (default), "green", "dark-blue"
 
-background = "#2E2E2E"
+background = "grey"
 file_types = [("PNG files", "*.png")]
 file_path = ""
 
